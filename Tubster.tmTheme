@@ -14,7 +14,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#F2EDE7</string>
 				<key>invisibles</key>
 				<string>#5365169E</string>
 				<key>lineHighlight</key>
@@ -32,6 +32,8 @@
 			<dict>
 				<key>background</key>
 				<string>#111111</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,7 +70,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC33</string>
+				<string>#FF5E40</string>
 			</dict>
 		</dict>
 		<dict>
@@ -91,10 +93,12 @@
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#99CC66</string>
+				<string>#CC8D72</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +111,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF6222</string>
+				<string>#FFD956</string>
 			</dict>
 		</dict>
 		<dict>
@@ -157,7 +161,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#99CC33</string>
+				<string>#A0CC74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -205,7 +209,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC33</string>
+				<string>#FFD568</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,6 +273,43 @@
 			<dict>
 				<key>background</key>
 				<string>#3366FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword.operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#966F58</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword.control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF9766</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3DACCB</string>
 			</dict>
 		</dict>
 	</array>
