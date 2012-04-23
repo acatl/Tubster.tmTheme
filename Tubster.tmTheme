@@ -282,8 +282,10 @@
 			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#966F58</string>
+				<string>#8AD1FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -306,10 +308,30 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#3DACCB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>braces</string>
+			<key>scope</key>
+			<string>meta.group.braces.round punctuation.section.scope, 
+meta.group.braces.round meta.delimiter.object.comma, 
+meta.group.braces.curly.function meta.delimiter.object.comma, 
+meta.brace.round</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00000000</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C13C5C</string>
 			</dict>
 		</dict>
 	</array>
